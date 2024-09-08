@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100%;
+      }
+      .container1 {
+        width: 100%;
+        background: url("https://images.sugarcosmetics.com/Wtp/0ccd669b-57a7-4903-b68e-bb2d998dba00.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+      }
+      .header-left {
+        width: 60%;
+      }
+      .head {
+        text-align: center;
+      }
+      .header-right {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .collection {
+        display: flex;
+        color: white;
+        gap: 5px;
+        margin-right: 1rem;
+        font-size: 0.6rem;
+      }
+      .container2 {
+        background-color: black;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+      }
+      .logo-container {
+        width: 20%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .logo {
+        width: 70%;
+      }
+      .search-container {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .search {
+        width: 80%;
+        height: 5vh;
+        border-radius: 5px;
+        padding-left: 10px;
+      }
+      .login-contaier {
+        width: 10%;
+        display: flex;
+        color: white;
+        font-size: 0.8rem;
+        gap: 5px;
+      }
+      .icon-container {
+        width: 10%;
+        display: flex;
+        gap: 15px;
+      }
+      .container3 {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        align-items: center;
+        background-color: rgb(21, 20, 20);
+        color: white;
+      }
+      ul {
+        width: 100%;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .container4 {
+        width: 100%;
+      }
+      .heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        width: 50%;
+        text-align: center;
+        border-bottom: 1px solid #000;
+        line-height: 0.1em;
+        margin: 40px 0px;
+      }
+      h1 span {
+        background: #fff;
+        padding: 0 40px;
+      }
+      .container5 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 19px;
+        padding: 0rem 1rem;
+      }
+      .card {
+        border: 1px solid grey;
+        border-radius: 5px;
+        width: 24%;
+      }
+      .image {
+        width: 100%;
+      }
+      .code {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: auto;
+        padding: 4% 0;
+      }
+      .hello{
+        border: 2px dotted red;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .para{
+        border-right: 2px dotted red;
+        width: 80%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        margin-left: .5rem;
+      }
+      .copy{
+        margin-right: .5rem;
+      }
+
+      @media screen and (max-width: 768px){
+        .container1{
+            display: none;
+        }
+        .container2{
+            display: none;
+        }
+        .container3{
+            display: none;
+        }
+        .container5{
+            width: 100%;
+        }
+        .card{
+            width: 48%;
+        }
+      }
+      @media screen and (max-width: 425px) {
+        .container1{
+            display: none;
+        }
+        .container2{
+            display: none;
+        }
+        .container3{
+            display: none;
+        }
+        .container5{
+            width: 100%;
+        }
+        .card{
+            width: 98%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container1">
+        <div class="header-left">
+          <h3 class="head">
+            Extra 5% off on your favourite products! 😍 Use Code: LIPSTICK5
+          </h3>
+        </div>
+        <div class="header-right">
+          <div class="collection">
+            <img
+              src="https://d32baadbbpueqt.cloudfront.net/Wtp/tabIcons/1f5ed774-9649-4423-b694-60e28769419e.png"
+              alt=""
+            />
+            <h2>GET APP</h2>
+          </div>
+          <div class="collection">
+            <img
+              src="https://d32baadbbpueqt.cloudfront.net/Wtp/tabIcons/1f5ed774-9649-4423-b694-60e28769419e.png"
+              alt=""
+            />
+            <h2>GET APP</h2>
+          </div>
+          <div class="collection">
+            <img
+              src="https://d32baadbbpueqt.cloudfront.net/Wtp/tabIcons/1f5ed774-9649-4423-b694-60e28769419e.png"
+              alt=""
+            />
+            <h2>GET APP</h2>
+          </div>
+          <div class="collection">
+            <img
+              src="https://d32baadbbpueqt.cloudfront.net/Wtp/tabIcons/1f5ed774-9649-4423-b694-60e28769419e.png"
+              alt=""
+            />
+            <h2>GET APP</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="logo-container">
+          <img
+            src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fimages.sugarcosmetics.com%2FLogo%2Fe4e638f6-67fa-43eb-9623-0a2dea7a09cc.gif&w=256&q=100"
+            class="logo"
+            alt=""
+          />
+        </div>
+        <div class="search-container">
+          <input
+            type="search"
+            placeholder="Try Liquid Lipstick"
+            class="search"
+          />
+        </div>
+        <div class="login-contaier">
+          <svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 19 20"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="white"
+            alt="person_icon"
+            style="width: 19px; height: 19px"
+          >
+            <path
+              d="M9.5 0C4.253 0 0 4.367 0 9.753c0 5.387 4.253 9.753 9.5 9.753S19 15.14 19 9.753C19 4.367 14.747 0 9.5 0Zm0 2.714c2.126 0 3.848 1.768 3.848 3.95 0 2.183-1.722 3.952-3.848 3.952s-3.848-1.77-3.848-3.951c0-2.183 1.722-3.951 3.848-3.951Zm0 15.344c-2.445 0-4.636-1.114-6.12-2.874 1.234-2.151 3.512-3.596 6.12-3.596s4.886 1.445 6.12 3.596c-1.484 1.76-3.675 2.874-6.12 2.874Z"
+            ></path>
+          </svg>
+          <h3>Login/Register</h3>
+        </div>
+        <div class="icon-container">
+          <svg
+            width="18px"
+            height="18px"
+            viewBox="0 0 21 20"
+            xmlns="http://www.w3.org/2000/svg"
+            alt="favorite_icon"
+            class="cursor"
+            fill="white"
+          >
+            <path
+              d="M19.071 2.37A6.639 6.639 0 0 0 14.908.5a6.675 6.675 0 0 0-4.4 1.244A6.677 6.677 0 0 0 5.855.507a6.622 6.622 0 0 0-4.263 2.204A6.374 6.374 0 0 0 .005 7.172a6.394 6.394 0 0 0 1.939 4.326l7.818 7.666a1.051 1.051 0 0 0 .745.304 1.066 1.066 0 0 0 .745-.304l7.82-7.666a6.446 6.446 0 0 0 1.427-2.094 6.342 6.342 0 0 0 0-4.94 6.445 6.445 0 0 0-1.428-2.093Zm-1.48 7.677-7.084 6.936-7.084-6.936A4.378 4.378 0 0 1 2.201 7.8a4.324 4.324 0 0 1 .25-2.535 4.423 4.423 0 0 1 1.64-1.975 4.555 4.555 0 0 1 2.48-.754 4.505 4.505 0 0 1 3.15 1.286 1.051 1.051 0 0 0 .744.304 1.067 1.067 0 0 0 .746-.304 4.536 4.536 0 0 1 3.103-1.07 4.524 4.524 0 0 1 3.013 1.296c.8.791 1.264 1.851 1.298 2.965a4.342 4.342 0 0 1-1.117 3.034h.083Z"
+            ></path>
+          </svg>
+          <svg
+            width="18px"
+            height="18px"
+            viewBox="0 0 21 20"
+            xmlns="http://www.w3.org/2000/svg"
+            alt="favorite_icon"
+            class="cursor"
+            fill="white"
+          >
+            <path
+              d="M19.071 2.37A6.639 6.639 0 0 0 14.908.5a6.675 6.675 0 0 0-4.4 1.244A6.677 6.677 0 0 0 5.855.507a6.622 6.622 0 0 0-4.263 2.204A6.374 6.374 0 0 0 .005 7.172a6.394 6.394 0 0 0 1.939 4.326l7.818 7.666a1.051 1.051 0 0 0 .745.304 1.066 1.066 0 0 0 .745-.304l7.82-7.666a6.446 6.446 0 0 0 1.427-2.094 6.342 6.342 0 0 0 0-4.94 6.445 6.445 0 0 0-1.428-2.093Zm-1.48 7.677-7.084 6.936-7.084-6.936A4.378 4.378 0 0 1 2.201 7.8a4.324 4.324 0 0 1 .25-2.535 4.423 4.423 0 0 1 1.64-1.975 4.555 4.555 0 0 1 2.48-.754 4.505 4.505 0 0 1 3.15 1.286 1.051 1.051 0 0 0 .744.304 1.067 1.067 0 0 0 .746-.304 4.536 4.536 0 0 1 3.103-1.07 4.524 4.524 0 0 1 3.013 1.296c.8.791 1.264 1.851 1.298 2.965a4.342 4.342 0 0 1-1.117 3.034h.083Z"
+            ></path>
+          </svg>
+          <svg
+            width="18px"
+            height="18px"
+            viewBox="0 0 21 20"
+            xmlns="http://www.w3.org/2000/svg"
+            alt="favorite_icon"
+            class="cursor"
+            fill="white"
+          >
+            <path
+              d="M19.071 2.37A6.639 6.639 0 0 0 14.908.5a6.675 6.675 0 0 0-4.4 1.244A6.677 6.677 0 0 0 5.855.507a6.622 6.622 0 0 0-4.263 2.204A6.374 6.374 0 0 0 .005 7.172a6.394 6.394 0 0 0 1.939 4.326l7.818 7.666a1.051 1.051 0 0 0 .745.304 1.066 1.066 0 0 0 .745-.304l7.82-7.666a6.446 6.446 0 0 0 1.427-2.094 6.342 6.342 0 0 0 0-4.94 6.445 6.445 0 0 0-1.428-2.093Zm-1.48 7.677-7.084 6.936-7.084-6.936A4.378 4.378 0 0 1 2.201 7.8a4.324 4.324 0 0 1 .25-2.535 4.423 4.423 0 0 1 1.64-1.975 4.555 4.555 0 0 1 2.48-.754 4.505 4.505 0 0 1 3.15 1.286 1.051 1.051 0 0 0 .744.304 1.067 1.067 0 0 0 .746-.304 4.536 4.536 0 0 1 3.103-1.07 4.524 4.524 0 0 1 3.013 1.296c.8.791 1.264 1.851 1.298 2.965a4.342 4.342 0 0 1-1.117 3.034h.083Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <div class="container3">
+        <ul>
+          <li>SUGAR PLAY</li>
+          <li>SUGAR PLAY</li>
+          <li>SUGAR PLAY</li>
+          <li>SUGAR PLAY</li>
+          <li>SUGAR PLAY</li>
+          <li>SUGAR PLAY</li>
+          <li>SUGAR PLAY</li>
+        </ul>
+      </div>
+      <div class="container4">
+        <div class="heading">
+          <h1><span>OFFERS</span></h1>
+        </div>
+        <div class="container5">
+          <div class="card">
+            <img
+              src="	https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+              alt=""
+              class="image"
+            />
+            <div class="code">
+              <div class="hello">
+                <div class="para">
+                    <p>PRIMER999</p>
+                </div>
+                <img
+                  src="https://in.sugarcosmetics.com/desc-images/copyIconBlack.png"
+                  alt="" class="copy"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="	https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+              alt=""
+              class="image"
+            />
+            <div class="code">
+              <div class="hello">
+                <div class="para">
+                    <p>PRIMER999</p>
+                </div>
+                <img
+                  src="https://in.sugarcosmetics.com/desc-images/copyIconBlack.png"
+                  alt="" class="copy"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="	https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+              alt=""
+              class="image"
+            />
+            <div class="code">
+              <div class="hello">
+                <div class="para">
+                    <p>PRIMER999</p>
+                </div>
+                <img
+                  src="https://in.sugarcosmetics.com/desc-images/copyIconBlack.png"
+                  alt="" class="copy"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="	https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+              alt=""
+              class="image"
+            />
+            <div class="code">
+              <div class="hello">
+                <div class="para">
+                    <p>PRIMER999</p>
+                </div>
+                <img
+                  src="https://in.sugarcosmetics.com/desc-images/copyIconBlack.png"
+                  alt="" class="copy"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="	https://images.sugarcosmetics.com/Promotion/5b050f83-b466-416b-89ce-f179462ac8f0.jpg"
+              alt=""
+              class="image"
+            />
+            <div class="code">
+              <div class="hello">
+                <div class="para">
+                    <p>PRIMER999</p>
+                </div>
+                <img
+                  src="https://in.sugarcosmetics.com/desc-images/copyIconBlack.png"
+                  alt="" class="copy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
